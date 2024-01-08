@@ -30,11 +30,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  csv:
+  path_provider:
+  permission_handler:
+  form_field_validator: ^1.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  cron: ^0.5.1
+  get: ^4.6.5
+  external_path: ^1.0.3
+  firebase_core: ^2.14.0
 
 dev_dependencies:
   flutter_test:
@@ -59,7 +67,37 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/right.png
+    - assets/images/left.png
+    - assets/images/rightEx.png
+    - assets/images/leftEx.png
+    - assets/images/background1.png
+    - assets/images/background2.png
+    - assets/images/DoubleEx1.png
+    - assets/images/DoubleEx2.png
+    - assets/images/example1.png
+    - assets/images/example2.png
+    - assets/images/example3.png
+    - assets/images/example4.png
+    - assets/images/FullShape.png
+    - assets/images/LeftShape.png
+    - assets/images/RightShape.png
+    - assets/images/FirstExam.png
+    - assets/images/SecondExam.png
+    - assets/images/ThirdExam.png
+    - assets/images/folder.png
+    - assets/images/graph1.png
+    - assets/images/graph2.png
+    - assets/images/graph3.png
+  
+  fonts:
+  - family: Dosis
+    fonts:
+      - asset: assets/fonts/Dosis-VariableFont_wght.ttf
+  - family: Alkatra
+    fonts:
+      - asset: assets/fonts/Alkatra-VariableFont_wght.ttf
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
