@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project/View/First%20exam%20explanation%20screen.dart';
+import 'package:temp_proj/View/first_exam/first_exam_explanation_screen.dart';
+
 import 'package:temp_proj/View/setting_bar.dart';
 import 'package:temp_proj/Model/globals.dart' as globals;
 
@@ -100,6 +101,7 @@ class _LoginPageState extends State<LoginPage> {
                                 } else if (!(alphaB.hasMatch(temp1))) {
                                   return "Only Alphabets are allowed in the name field";
                                 }
+                                return null;
                               },
                               onChanged: (value1) {
                                 globals.name = value1;
@@ -124,6 +126,7 @@ class _LoginPageState extends State<LoginPage> {
                                 } else if (!(numbers.hasMatch(temp2))) {
                                   return "Only numeric values are allowed in the name field";
                                 }
+                                return null;
                               },
                               onChanged: (value2) {
                                 globals.iD = value2;
@@ -146,6 +149,7 @@ class _LoginPageState extends State<LoginPage> {
                                 } else if (!(numbers.hasMatch(temp3))) {
                                   return "Only numeric values are allowed in the age field";
                                 }
+                                return null;
                               },
                               onChanged: (value3) {
                                 globals.age = value3;
@@ -166,6 +170,7 @@ class _LoginPageState extends State<LoginPage> {
                                 if (temp4!.isEmpty) {
                                   return "Gender Required";
                                 }
+                                return null;
                               },
                               onChanged: (value4) {
                                 globals.gender = value4;
