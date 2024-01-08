@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:temp_proj/Controller/results.dart';
 // import 'package:project/View/Third%20exam%20explanation%20screen.dart';
 
 void main() {
@@ -54,6 +55,10 @@ class _EndOfSecondTest extends State<EndOfSecondTest> {
                 const SizedBox(height: 80),
                 TextButton(
                   onPressed: () {
+                    createFolder();
+                    createInfo();
+                    createFirstExam();
+                    createSecondExam();
                     // Navigator.push(
                     //   context,
                     //   MaterialPageRoute(
