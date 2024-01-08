@@ -9,6 +9,7 @@ class SettingBar extends StatefulWidget {
 }
 
 class _SettingBar extends State<SettingBar> {
+  @override
   Widget build(BuildContext context) {
     return Drawer(
       backgroundColor: Colors.blue[200]?.withOpacity(0.5),
@@ -201,7 +202,9 @@ class _SettingBar extends State<SettingBar> {
                         return DropdownMenuItem<int>(
                           value: value5,
                           child: Text(
-                            value5.toString(),
+                            value5 == 2
+                                ? '$value5 (same color)'
+                                : '$value5 (different color)',
                             style: const TextStyle(
                                 fontSize: 14,
                                 color: Colors.black,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+// import 'package:get/get.dart';
 import 'package:temp_proj/View/first_exam/first_exam_explanation_screen.dart';
 
 import 'package:temp_proj/View/setting_bar.dart';
