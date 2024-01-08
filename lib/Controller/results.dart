@@ -35,10 +35,10 @@ Future<File> get createFile2 async {
   return File('$directory/Second Exam.txt');
 }
 
-Future<File> get createFile3 async {
-  final directory = await createFolder();
-  return File('$directory/Third Exam.txt');
-}
+// Future<File> get createFile3 async {
+//   final directory = await createFolder();
+//   return File('$directory/Third Exam.txt');
+// }
 
 Future<File> createInfo() async {
   final file = await createFileInfo;
@@ -76,13 +76,13 @@ createSecondExam() async {
       mode: FileMode.append);
 }
 
-createThirdExam() async {
-  final file = await createFile3;
-  for (int i = 0; i < globals.numOfTurn; i++) {
-    await file.writeAsString(
-        "${i + 1}th  round: \n The indexes of the lights turned: ${globals.lightsIndex[i]} \n The detection time: ${globals.detectionTimes[i + 1]} \n The response time: ${globals.responseTimes[i + 1]}  \n \n",
-        mode: FileMode.append);
-  }
-  file.writeAsString("Total correct answers: ${globals.score3} \n",
-      mode: FileMode.append);
-}
+// createThirdExam() async {
+//   final file = await createFile3;
+//   for (int i = 0; i < globals.numOfTurn; i++) {
+//     await file.writeAsString(
+//         "${i + 1}th  round: \n The indexes of the lights turned: ${globals.lightsIndex[i]} \n The detection time: ${globals.detectionTimes[i + 1]} \n The response time: ${globals.responseTimes[i + 1]}  \n \n",
+//         mode: FileMode.append);
+//   }
+//   file.writeAsString("Total correct answers: ${globals.score3} \n",
+//       mode: FileMode.append);
+// }
