@@ -5,7 +5,7 @@ import 'dart:io';
 
 Future<String> createFolder() async {
   String temp =
-      '${(Platform.isAndroid ? await getExternalStorageDirectory() : await getApplicationSupportDirectory())!.path}/${globals.iD}';
+      '${(Platform.isAndroid ? await getExternalStorageDirectory() : Platform.isIOS ? await getApplicationSupportDirectory() : await getApplicationDocumentsDirectory())!.path}/${globals.iD}';
   print(temp);
   final directory = Directory(temp);
   var per = await Permission.storage.status;
