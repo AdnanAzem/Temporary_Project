@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+// import 'package:temp_proj/View/third_exam/third_exam_screen.dart';
 import 'View/login_screen.dart';
 
 main() {
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: LoginPage(),
+      // home: ThirdExam(),
     );
   }
 }

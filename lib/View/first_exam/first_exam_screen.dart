@@ -112,11 +112,6 @@ class _Sides extends State<Sides> {
                           globals.click++;
                           if (globals.sideTemp == 0) {
                             whenChooseButton1();
-                            // globals.score1++;
-                            // globals.roundCorrectness.add(true);
-                            // globals.time1 = (globals.time1 / 2);
-                            // globals.roundsTimes.add(globals.time1);
-                            // print(globals.time1);
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -125,12 +120,6 @@ class _Sides extends State<Sides> {
                           } else {
                             if (globals.numOfWrongAnswers1 > 0) {
                               whenChooseButton2();
-                              // globals.time1 =
-                              //     (globals.time1 + (globals.time1 / 4));
-                              // globals.roundsTimes.add(globals.time1);
-                              // globals.roundCorrectness.add(false);
-                              // print('wrong:' + globals.time1.toString());
-                              // globals.numOfWrongAnswers1--;
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -138,8 +127,6 @@ class _Sides extends State<Sides> {
                               );
                             } else {
                               whenUpdate();
-                              // globals.roundCorrectness.add(false);
-                              // globals.roundsTimes.add(globals.time1);
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -187,11 +174,6 @@ class _Sides extends State<Sides> {
                           globals.click++;
                           if (globals.numOfWrongAnswers1 > 0) {
                             whenChooseButtonDNS();
-                            // globals.time1 =
-                            //     (globals.time1 + (globals.time1 / 4));
-                            // globals.roundsTimes.add(globals.time1);
-                            // globals.roundCorrectness.add(false);
-                            // globals.numOfWrongAnswers1--;
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -199,8 +181,6 @@ class _Sides extends State<Sides> {
                             );
                           } else {
                             whenUpdate();
-                            // globals.roundCorrectness.add(false);
-                            // globals.roundsTimes.add(globals.time1);
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -247,11 +227,6 @@ class _Sides extends State<Sides> {
                           globals.click++;
                           if (globals.sideTemp == 1) {
                             whenChooseButton1();
-                            // globals.score1++;
-                            // globals.roundCorrectness.add(true);
-                            // globals.time1 = (globals.time1 / 2);
-                            // globals.roundsTimes.add(globals.time1);
-                            // print(globals.time1);
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -260,12 +235,6 @@ class _Sides extends State<Sides> {
                           } else {
                             if (globals.numOfWrongAnswers1 > 0) {
                               whenChooseButton2();
-                              // globals.time1 =
-                              //     (globals.time1 + (globals.time1 / 4));
-                              // globals.roundsTimes.add(globals.time1);
-                              // globals.roundCorrectness.add(false);
-                              // print('wrong:' + globals.time1.toString());
-                              // globals.numOfWrongAnswers1--;
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -273,8 +242,6 @@ class _Sides extends State<Sides> {
                               );
                             } else {
                               whenUpdate();
-                              // globals.roundCorrectness.add(false);
-                              // globals.roundsTimes.add(globals.time1);
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(

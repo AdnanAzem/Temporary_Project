@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:temp_proj/Controller/results.dart';
-// import 'package:project/View/Third%20exam%20explanation%20screen.dart';
+// import 'package:temp_proj/View/third_exam/third_exam_explanation_screen.dart';
 
 void main() {
   runApp(const MyApp());

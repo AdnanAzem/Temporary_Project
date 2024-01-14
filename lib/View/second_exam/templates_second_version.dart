@@ -12,30 +12,8 @@ class Templates2 {
         onPressed: () {
           if (card[0] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -58,29 +36,8 @@ class Templates2 {
         onPressed: () {
           if (card[1] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -103,29 +60,8 @@ class Templates2 {
         onPressed: () {
           if (card[2] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -148,29 +84,8 @@ class Templates2 {
         onPressed: () {
           if (card[3] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -194,28 +109,8 @@ class Templates2 {
         onPressed: () {
           if (card[4] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -238,29 +133,8 @@ class Templates2 {
         onPressed: () {
           if (card[5] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -283,29 +157,8 @@ class Templates2 {
         onPressed: () {
           if (card[6] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -328,29 +181,8 @@ class Templates2 {
         onPressed: () {
           if (card[7] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -388,29 +220,8 @@ class Templates2 {
         onPressed: () {
           if (card[0] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -433,29 +244,8 @@ class Templates2 {
         onPressed: () {
           if (card[1] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -478,29 +268,8 @@ class Templates2 {
         onPressed: () {
           if (card[2] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -523,29 +292,8 @@ class Templates2 {
         onPressed: () {
           if (card[3] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -568,29 +316,8 @@ class Templates2 {
         onPressed: () {
           if (card[4] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -613,29 +340,8 @@ class Templates2 {
         onPressed: () {
           if (card[5] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -658,29 +364,8 @@ class Templates2 {
         onPressed: () {
           if (card[6] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -703,29 +388,8 @@ class Templates2 {
         onPressed: () {
           if (card[7] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -763,29 +427,8 @@ class Templates2 {
         onPressed: () {
           if (card[0] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -808,29 +451,8 @@ class Templates2 {
         onPressed: () {
           if (card[1] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -853,29 +475,8 @@ class Templates2 {
         onPressed: () {
           if (card[2] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -899,29 +500,8 @@ class Templates2 {
         onPressed: () {
           if (card[3] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -944,29 +524,8 @@ class Templates2 {
         onPressed: () {
           if (card[4] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -990,29 +549,8 @@ class Templates2 {
         onPressed: () {
           if (card[5] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1034,30 +572,9 @@ class Templates2 {
       child: TextButton(
         onPressed: () {
           if (card[6] == globals.icon) {
-            // globals.score2++;
             updateValuesDouble1();
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1080,29 +597,8 @@ class Templates2 {
         onPressed: () {
           if (card[7] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1140,29 +636,8 @@ class Templates2 {
         onPressed: () {
           if (card[0] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1185,29 +660,8 @@ class Templates2 {
         onPressed: () {
           if (card[1] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1230,29 +684,8 @@ class Templates2 {
         onPressed: () {
           if (card[2] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1275,29 +708,8 @@ class Templates2 {
         onPressed: () {
           if (card[3] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1320,29 +732,8 @@ class Templates2 {
         onPressed: () {
           if (card[4] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1365,29 +756,8 @@ class Templates2 {
         onPressed: () {
           if (card[5] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1410,29 +780,8 @@ class Templates2 {
         onPressed: () {
           if (card[6] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1455,29 +804,8 @@ class Templates2 {
         onPressed: () {
           if (card[7] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1515,29 +843,8 @@ class Templates2 {
         onPressed: () {
           if (card[0] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1560,29 +867,8 @@ class Templates2 {
         onPressed: () {
           if (card[1] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1605,29 +891,8 @@ class Templates2 {
         onPressed: () {
           if (card[2] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1650,29 +915,8 @@ class Templates2 {
         onPressed: () {
           if (card[3] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1695,29 +939,8 @@ class Templates2 {
         onPressed: () {
           if (card[4] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1740,29 +963,8 @@ class Templates2 {
         onPressed: () {
           if (card[5] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1785,29 +987,8 @@ class Templates2 {
         onPressed: () {
           if (card[6] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(
@@ -1830,29 +1011,8 @@ class Templates2 {
         onPressed: () {
           if (card[7] == globals.icon) {
             updateValuesDouble1();
-            // globals.score2++;
-            // globals.stopwatch.stop();
-            // globals.time2 = globals.stopwatch.elapsed;
-            // globals.rountimes.add(globals.time2);
-            // if (globals.leftOrRight == 2) {
-            //   globals.numClickOnRight++;
-            // }
-            // //print(stopwatch.elapsed);
-            // Get.offAll(const Double());
-            // globals.numOfGames--;
-            // if (globals.numOfGames == 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           } else {
             updateValuesDouble2();
-            // if (globals.numOfWrongAnswers2 > 0) {
-            //   globals.rountimes.add(globals.time2);
-            //   globals.numOfWrongAnswers2--;
-            // } else {
-            //   globals.rountimes.add(globals.time2);
-            //   Get.offAll(const EndOfSecondTest());
-            // }
           }
         },
         child: SizedBox(

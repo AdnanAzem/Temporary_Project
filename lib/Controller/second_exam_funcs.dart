@@ -13,6 +13,7 @@ updateValuesDouble1() {
   globals.stopwatch.stop();
   globals.time2 = globals.stopwatch.elapsed;
   globals.rountimes.add(globals.time2);
+  globals.roundsBool.add(true);
   if (globals.leftOrRight == 2) {
     globals.numClickOnRight++;
   }
@@ -26,6 +27,7 @@ updateValuesDouble1() {
 }
 
 updateValuesDouble2() {
+  globals.roundsBool.add(false);
   if (globals.numOfWrongAnswers2 > 0) {
     globals.rountimes.add(globals.time2);
     globals.numOfWrongAnswers2--;

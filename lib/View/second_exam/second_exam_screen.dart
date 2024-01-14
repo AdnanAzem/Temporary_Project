@@ -45,106 +45,108 @@ class _Double extends State<Double> {
     List<Positioned> templateB = templates[1];
     globals.leftOrRight = 0;
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue[600]?.withOpacity(0.5),
+      appBar: AppBar(
+        backgroundColor: Colors.blue[600]?.withOpacity(0.5),
+      ),
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage("assets/images/background2.png"),
+              fit: BoxFit.cover),
         ),
-        body: Container(
-          decoration: const BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage("assets/images/background2.png"),
-                fit: BoxFit.cover),
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              const SizedBox(height: 100),
-              const Text(
-                " Please click on the only symbol on the left card that matches a symbol on the right card:",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Alkatra'),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            const SizedBox(height: 100),
+            const Text(
+              " Please click on the only symbol on the left card that matches a symbol on the right card:",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Alkatra'),
+            ),
+            const SizedBox(height: 20),
+            Center(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  const SizedBox(
+                    width: 15,
+                  ),
+                  Container(
+                    height: 400,
+                    width: 400,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(500),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.5),
+                          offset: const Offset(
+                            7.0,
+                            7.0,
+                          ),
+                          blurRadius: 10.0,
+                        ),
+                      ],
+                    ),
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        templateA[0],
+                        templateA[1],
+                        templateA[2],
+                        templateA[3],
+                        templateA[4],
+                        templateA[5],
+                        templateA[6],
+                        templateA[7],
+                      ],                      
+                    ),
+                  ),
+                  Container(
+                    height: 400,
+                    width: 400,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(500),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.5),
+                          offset: const Offset(
+                            7.0,
+                            7.0,
+                          ),
+                          blurRadius: 10.0,
+                        ),
+                      ],
+                    ),
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        templateB[0],
+                        templateB[1],
+                        templateB[2],
+                        templateB[3],
+                        templateB[4],
+                        templateB[5],
+                        templateB[6],
+                        templateB[7],
+                      ],
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 15,
+                  ),
+                ],
               ),
-              const SizedBox(height: 20),
-              Center(
-                child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      const SizedBox(
-                        width: 15,
-                      ),
-                      Container(
-                        height: 400,
-                        width: 400,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(500),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.5),
-                              offset: const Offset(
-                                7.0,
-                                7.0,
-                              ),
-                              blurRadius: 10.0,
-                            ),
-                          ],
-                        ),
-                        child: Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            templateA[0],
-                            templateA[1],
-                            templateA[2],
-                            templateA[3],
-                            templateA[4],
-                            templateA[5],
-                            templateA[6],
-                            templateA[7],
-                          ],
-                        ),
-                      ),
-                      Container(
-                        height: 400,
-                        width: 400,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(500),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.5),
-                              offset: const Offset(
-                                7.0,
-                                7.0,
-                              ),
-                              blurRadius: 10.0,
-                            ),
-                          ],
-                        ),
-                        child: Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            templateB[0],
-                            templateB[1],
-                            templateB[2],
-                            templateB[3],
-                            templateB[4],
-                            templateB[5],
-                            templateB[6],
-                            templateB[7],
-                          ],
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 15,
-                      ),
-                    ]),
-              ),
-            ],
-          ),
-        ));
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }

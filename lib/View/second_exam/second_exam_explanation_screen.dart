@@ -24,7 +24,7 @@ class _SecondExplanationPage extends State<SecondExplanationPage> {
             child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const SizedBox(height: 75),
+                  const SizedBox(height: 50),
                   const Text(
                     "Next, you will be presented with two cards and will be required to click in the left card \n on the symbol that is common to both cards:",
                     textAlign: TextAlign.center,
@@ -51,7 +51,7 @@ class _SecondExplanationPage extends State<SecondExplanationPage> {
                       ),
                     ],
                   )),
-                  const SizedBox(height: 30),
+                  const SizedBox(height: 20),
                   TextButton(
                     onPressed: () {
                       Navigator.push(

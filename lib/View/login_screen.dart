@@ -12,20 +12,18 @@ class LoginPage extends StatefulWidget {
   State<LoginPage> createState() => _LoginPageState();
 }
 
-List<String> gender = ['male', 'female'];
-
 class _LoginPageState extends State<LoginPage> {
   @override
   void initState() {
     // TODO: implement initState
     setState(() {
-      globals.gender = gender[0];
+      globals.gender = globals.genderList[0];
     });
     super.initState();
   }
 
   final formKey = GlobalKey<FormState>();
-  String currentGender = gender[0];
+  String currentGender = globals.genderList[0];
   static final RegExp alphaB = RegExp('[a-zA-Z]');
   static final RegExp numbers = RegExp('[0-9]');
 
@@ -183,7 +181,7 @@ class _LoginPageState extends State<LoginPage> {
                               child: ListTile(
                                 title: const Text('male'),
                                 leading: Radio(
-                                  value: gender[0],
+                                  value: globals.genderList[0],
                                   groupValue: globals.gender,
                                   onChanged: (value) {
                                     setState(
@@ -199,7 +197,7 @@ class _LoginPageState extends State<LoginPage> {
                               child: ListTile(
                                 title: const Text('female'),
                                 leading: Radio(
-                                  value: gender[1],
+                                  value: globals.genderList[1],
                                   groupValue: globals.gender,
                                   onChanged: (value) {
                                     setState(
